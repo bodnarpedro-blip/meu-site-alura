@@ -1,94 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <style>
-        header {
-            background-color: #183C63;
-            color: #FFFFFF;
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 16px;
-        }
-
-        main {
-            background-color: #FFFFFF;
-            color: #183C63;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 16px;
-        }
-        article{
-            display: flex;
-        }
-
-        img {
-            width: 80px;
-            height: 80px;
-        }
-
-        .artigo-autor {
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A História da Prataria e Alpaca na Montaria Brasileira</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Meu blog tech</h1>
-        <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-    </header>
-    <main>
-        <article>
-            <img src="imagem-blog.png"
-                alt="Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
-            <div>
-                <h2>Meu primeiro post</h2>
-                <p class="artigo-autor">Por: Marcelo Paludetto</p>
-                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de
-                    tecnologia.</p>
-                <button>❤️ <span>0</span></button>
-                <button>👍 <span>0</span></button>
-            </div>
-        </article>
-        <article>
-            <img src="imagem-blog.png"
-                alt="Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
-            <div>
-                <h2>Meu segundo post</h2>
-                <p class="artigo-autor">Por: Marcelo Paludetto</p>
-                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de
-                    tecnologia.</p>
-                <button>❤️ <span>0</span></button>
-                <button>👍 <span>0</span></button>
-            </div>
-        </article>
-    </main>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Montaria & Tradição</a>
+      <ul class="nav-links">
+        <li><a href="#origens">Origens</a></li>
+        <li><a href="#materiais">Prata & Alpaca</a></li>
+        <li><a href="#industria">Industrialização</a></li>
+        <li><a href="#linha-tempo">Linha do Tempo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1>A História da Prataria e Alpaca na Montaria Brasileira</h1>
+      <p>Da herança platina e tradição artesanal dos pampas à revolução metalúrgica do Rio Grande do Sul.</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card intro-card">
+      <p class="highlight-text">
+        Os artigos de montaria de prata e alpaca no Brasil não nasceram simplesmente como uma "indústria de acessórios". Eles surgiram da combinação de quatro tradições: a cultura equestre do sul do Brasil, a herança ibérica e platina, a ourivesaria/prataria e, posteriormente, a industrialização metalúrgica do RS.
+      </p>
+    </section>
+
+    <section id="origens" class="card">
+      <h2>1. Origens Culturais e a Influência Platina</h2>
+      <p>Muito antes das fábricas, o cavalo no Sul do Brasil, Uruguai e Argentina não era apenas transporte — era instrumento de trabalho, meio de deslocamento e elemento de prestígio. Os objetos que o acompanhavam (sela, freio, rédeas, estribos, esporas) formavam o <strong>apero</strong> ou <strong>tralha</strong>.</p>
+      
+      <p>No século XIX, viajantes como o belga Auguste Baguet (1845) e o francês Arsène Isabelle (1833-1834) registraram o fascínio pelo luxo dos arreios rio-grandenses, frequentemente ornados em prata mesmo por trabalhadores de vida material simples.</p>
+
+      <div class="quote-box">
+        <blockquote>
+          "A prataria servia para comunicar: riqueza + posição social + gosto + identidade + prestígio do cavaleiro."
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="materiais" class="card">
+      <h2>2. O Sistema de Ofícios e os Materiais</h2>
+      <p>Antes da indústria, existia uma rede de artesãos: seleiros, correieiros, ferreiros e prateiros. O metal precisava interagir perfeitamente com o couro (guasqueria).</p>
+      
+      <div class="grid-2">
+        <div class="material-box">
+          <h3>Prata</h3>
+          <p>Metal precioso de alto valor, presente em peças de gala, bombas de chimarrão, cabos de faca, esporas e fivelas de colecionadores e estancieiros.</p>
+        </div>
+        <div class="material-box">
+          <h3>Alpaca ("Prata Alemã")</h3>
+          <p>Liga de cobre, níquel e zinco. Oferecia a estética da prata com maior resistência e custo reduzido, democratizando o acesso às peças ornamentadas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="industria" class="card">
+      <h2>3. A Era Industrial: Caxias do Sul, Eberle e Scholberg</h2>
+      <p>A partir do início do século XX, a imigração europeia e a metalurgia transformaram o setor. A fabricação manual deu lugar às matrizes, moldes e máquinas de estampagem em série.</p>
+      
+      <ul>
+        <li><strong>Abramo Eberle:</strong> Iniciou a produção de montaria entre 1904 e 1907. Em 1908, consolidou a famosa marca <strong>Piteira</strong>.</li>
+        <li><strong>Scholberg & Joucla:</strong> Outra fabricante fundamental na história das tralhas em alpaca e prata.</li>
+        <li><strong>Marcas Próprias:</strong> Surgiram nomes como <em>Alpaca Eberle</em>, <em>Eberline</em> e <em>Solidonickel</em>.</li>
+        <li><strong>Inox (1940):</strong> O aço inoxidável passou a ser adotado por suportar o suor, a chuva e o barro sem escurecer.</li>
+      </ul>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <div class="img-placeholder">Catálogo Eberle (1928)</div>
+          <p class="caption">Modelos padronizados e numerados substituindo a encomenda puramente artesanal.</p>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder">Peça Histórica Scholberg</div>
+          <p class="caption">Estribos ornamentados com brasões, florões e elementos heráldicos.</p>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder">Peça Contemporânea</div>
+          <p class="caption">A permanência da linguagem visual unindo couro e ornamentação metálica.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="linha-tempo" class="card">
+      <h2>4. Resumo da Evolução Histórica</h2>
+      <p>Clique no botão abaixo para alternar a visualização do fluxo de desenvolvimento histórico:</p>
+      
+      <button id="toggleDiagramBtn" class="btn">Ocultar Fluxograma</button>
+
+      <div id="diagramContainer" class="diagram-wrapper">
+        <div class="flow-step">Cultura Ibérica & Platina</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Vida a Cavalo e Pecuária do Pampa</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Arreios Ornamentados em Prata Artesanal</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Adoção da Alpaca (Democratização)</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Industrialização Gaúcha (Eberle / Scholberg)</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Catálogos, Marcas e Distribuição Nacional</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-step">Chegada do Aço Inox e Tradição Contemporânea</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; História da Montaria Brasileira — Preservação da Memória Cultural e Material</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-<script>
-    const botoes = document.querySelectorAll("button");
-
-    botoes.forEach(function (botao) {
-        let curtiu = false;
-        botao.addEventListener("click", botaoClicado);
-        function botaoClicado() {
-            console.log("fui clicado");
-            let texto = botao.querySelector("span");
-            if (curtiu === false){
-                texto.textContent++;
-                curtiu = true;
-            } else{
-                texto.textContent--;
-                curtiu = false;
-            }
-        }
-    })
-
-
-</script>
-
 </html>
